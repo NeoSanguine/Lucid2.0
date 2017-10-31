@@ -184,9 +184,15 @@ public class CharLoginHandler {
             if (Secondpw_Client == null) { // Client's hacking
                 c.getSession().close();
                 return;
-            } else {
-                if (!c.CheckSecondPassword(Secondpw_Client)) { // Wrong Password
-                    state = 20;
+            } 
+            else 
+            {
+                if (!c.CheckSecondPassword(Secondpw_Client)) 
+                { 
+                    // Wrong Password
+                    //state = 20;
+                    // delete the character regardless of 2nd password
+                    state = 0; //HACK, I'm sorry
                 }
             }
         }
