@@ -33,3 +33,6 @@
 - [ ] Cash shop item searching
 - [ ] Cash shop purchasing item
 - [ ] Recode packet handling system
+
+### Bosses
+- [ ] Zakum boss causes player position on map to stop updating
