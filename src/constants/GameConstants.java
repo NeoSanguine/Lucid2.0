@@ -41,9 +41,9 @@ import tools.Pair;
 import tools.Randomizer;
 
 public class GameConstants {
-
 	public static final int OWN_JOB_V_SKILL_CHANCE = 50;
-    public static final int BEGINNER_V_SKILL_CHANCE = 10;
+	public static final int BEGINNER_V_SKILL_CHANCE = 10;
+	public static boolean GMS = true; 
 
     public static boolean isBonusPot(int opID) {
 		//bpots always are x2xxx
