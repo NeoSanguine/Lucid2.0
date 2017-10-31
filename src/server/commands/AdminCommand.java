@@ -482,4 +482,14 @@ public class AdminCommand {
             return 1;
         }
     }
+    
+    public static class GetCurrentMap extends CommandExecute
+    {
+    	@Override
+    	public int execute(MapleClient c, String[] splitted)
+    	{
+    		c.getPlayer().dropMessage(6, "Current Map ID " + String.valueOf(c.getPlayer().getMap().getReturnMapId()));
+            return 1;
+    	}
+    }
 }
