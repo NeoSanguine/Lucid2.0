@@ -1,5 +1,6 @@
 @echo off
-@title MapleStory Server - v176.1
-set CLASSPATH=.;bin\*
+@title MediocreMS 179.4
+Color 0C
+set CLASSPATH=.;resources\bin\*
 java -client server.Start
 pause
